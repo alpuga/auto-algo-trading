@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "autotrader-python"
+version = "0.1.0"
+description = "Environment to test trading strategies. Backtesting of simple macd strategy"
+authors = ["alpuga <alpuga8@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+autotrader = "^1.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
